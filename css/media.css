@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1024px){
+    body{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main .container .right_menu .first_element:after {
+        right: 30%;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .right_menu{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (max-width: 420px) {
+    .main .call{
+        display: block!important;
+        text-align: center;
+    }
+    .main .container .left_block .product h1{
+        font-size: 18px!important;
+    }
+    .main .container .left_block{
+        max-width: 345px!important;
+    }
+    .slick-slider{
+        max-width: 250px!important;
+    }
+    .main .container .left_block .tab{
+        margin-top: 50px!important;
+    }
+    .main .container .left_block .w3-black{
+        margin-left: 50px!important;
+    }
+    .main .menu .nav{
+        display: none!important;
+    }
+    .main .container{
+        position: relative;
+    }
+    .menu-burger__header {
+        position: absolute; /* задаем относительное позиционирование */
+        width: 40px; /* определяем размеры блока */
+        height: 35px;
+        display: block;
+        margin-left: 10px;
+        right: 50%;
+    }
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #515758;
+        margin: 0 auto;
+    }
+    .menu-burger__header span{
+        top: 16px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 5px;
+    }
+    .menu-burger__header:before{
+        top: 5px;
+    }
+    .main .breadcrumbs{
+        margin-top: 60px!important;
+    }
+    .slider.slider-nav.slick-initialized.slick-slider.slick-vertical{
+        display: none;
+    }
+    .main .container .left_block .slider{
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 375px){
+
+
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 320px){
+
+}
